@@ -11,4 +11,4 @@ jobs:
           collectionName: Github actions collection test
           workspaceName: My Workspace
           postmanApiKey: ${{ secrets.POSTMAN_API_KEY }}
-          openApiSpec: swagger.yaml
+          openApiSpec: ./swagger.yaml
